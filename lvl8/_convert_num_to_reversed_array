@@ -1,0 +1,6 @@
+// Convert a random number within an array in reverse order
+// Antwoord
+
+function digitize(n) {
+  return String(n).split('').map(Number).reverse()
+}
