@@ -1,0 +1,5 @@
+// Given a number, find opposite
+
+function opposite(number) {
+  return(-number);
+}
