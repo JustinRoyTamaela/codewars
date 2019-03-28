@@ -1,0 +1,16 @@
+/*
+Description:
+When provided with a String, capitalize all vowels
+
+For example:
+Input : "Hello World!"
+Output : "HEllO WOrld!"
+*/
+
+
+function swap(st){
+  var vowel = st.replace(/[aeiou]/gi, function(x){
+    return x.toUpperCase();
+  });
+  return vowel;
+}
